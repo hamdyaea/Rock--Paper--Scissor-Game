@@ -8,7 +8,9 @@ A player who decides to play rock will beat another player who has chosen scisso
 
 Rock-paper-scissors is often used as a relatively fair choosing method between two people, similar to coin flipping, drawing straws, or throwing dice in order to settle a dispute or make an unbiased group decision.
 
-Unlike truly random selection methods, however, rock–paper–scissors can be played with a degree of skill by recognizing and exploiting non-random behavior in opponents.
+Unlike truly random selection methods, however, rock–paper–scissors can be played with a degree of skill by recognizing and exploiting non-random behavior in opponents.  
+![Screenshot](screenshot.png)
+
 
 ## What you need to make it work :
 please install the python3-tk package  
@@ -16,10 +18,6 @@ please install the python3-tk package
 sudo apt-get install python3-tk
 ```  
 
-
-## Screenshot
-
-![Screenshot](screenshot.png)
 
 ## Developer - Author
 
