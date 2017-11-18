@@ -14,7 +14,9 @@ Unlike truly random selection methods, however, rock–paper–scissors can be p
 please install the python3-tk package  
 ```sh
 sudo apt-get install python3-tk
-```
+```  
+
+
 ## Screenshot
 
 ![Screenshot](screenshot.png)
