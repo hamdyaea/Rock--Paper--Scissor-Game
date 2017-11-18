@@ -1,9 +1,11 @@
 import tkinter as tk
-import tkinter # For Python3.0 --> import tkinter
+import tkinter 
 from tkinter import messagebox
 import random
 
-top = tkinter.Tk() # For Python3.0 --> top = tkinter.tk()
+# Developer : Hamdy Abou El Anein
+
+top = tkinter.Tk() 
 top.title("Rock | Paper | Scissor")
 
 
@@ -16,8 +18,7 @@ def Rock():
     global user_score, comp_score
     
     comp = random.randint(1,3)
-    #print("your choice: Rock")
-    #print("Comp choice: "+str(comp))
+
     if comp == 3:
         comp = "Scissor"
         user_score+=1
@@ -39,8 +40,7 @@ def paper():
     global user_score, comp_score
     
     comp = random.randint(1,3)
-    #print("your choice: paper")
-    #print("Comp choice: "+str(comp))
+
     if comp == 1:
         comp = "Rock"
         user_score+=1
@@ -60,8 +60,7 @@ def scissor():
     global user_score, comp_score
     
     comp = random.randint(1,3)
-    #print("your choice: scissor")
-    #print("Comp choice: "+str(comp))
+
     if comp == 2:
         comp = "Paper"
         user_score+=1
