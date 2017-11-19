@@ -14,11 +14,35 @@ Unlike truly random selection methods, however, rock–paper–scissors can be p
 ![Screenshot](screenshot.png)
 
 
+## Rules of the game :
+
+The players usually count aloud to 3, or speak the name of the game (e.g. "Rock! Paper! Scissors!"), each time either raising one hand in a fist and swinging it down on the count or holding it behind. They then "throw" by extending it towards their opponent. Variations include a version where players use only three counts before throwing their gesture (thus throwing on the count of "Scissors!"), or a version where they shake their hands three times before "throwing".
+
+
 ## What you need to make it work :
-please install the python3-tk package  
+
+
+Pillow (for Image)
+```sh
+pip install Pillow
+```
+
+ImageTk
+```sh
+sudo apt-get install python-pil.imagetk
+```
+
+python3-tk (tkinter)
 ```sh
 sudo apt-get install python3-tk
 ```  
+
+
+## How to launch the game :
+
+```sh
+python3 RockPaperScissors.py
+```
 
 
 ## Developer - Author
