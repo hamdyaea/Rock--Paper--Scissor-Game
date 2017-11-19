@@ -21,10 +21,19 @@ The players usually count aloud to 3, or speak the name of the game (e.g. "Rock!
 
 ## What you need to make it work :
 
+Install all the packages for : Python 3.
 
 Pillow (for Image)
 ```sh
 pip install Pillow
+```
+
+```sh
+sudo apt-get install python3-pil
+```
+
+```sh
+export PYTHONPATH=/usr/local/lib/python3.6/dist-packages:/usr/local/lib/python3.6/site-packages
 ```
 
 ImageTk

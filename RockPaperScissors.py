@@ -4,9 +4,10 @@ from tkinter import messagebox
 import random
 from PIL import Image, ImageTk
 
+
 # Developer : Hamdy Abou El Anein
 
-top = tkinter.Tk() 
+top = tk.Tk() 
 top.title("Rock - Paper - Scissor")
 
 ciseaux_tk = tk.PhotoImage(file="./images/scissors.gif")
@@ -83,9 +84,7 @@ def scissor():
 B1 = tkinter.Button(top, image = caillou_tk ,height="200",width="180", command = Rock)
 B2 = tkinter.Button(top, image = feuille_tk ,height="200",width="180", command = paper)
 B3 = tkinter.Button(top, image = ciseaux_tk ,height="200",width="180", command = scissor)
-B1.image = caillou_tk
-B2.image = feuille_tk
-B3.image = ciseaux_tk
+
 B1.pack(side='left')
 B2.pack(side='left')
 B3.pack(side='left')
