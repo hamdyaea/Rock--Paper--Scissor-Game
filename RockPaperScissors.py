@@ -22,7 +22,7 @@ def Rock():
     comp = random.randint(1,3)
 
     if comp == 3:
-        comp = "Scissor"
+        comp = "Scissors"
         user_score+=1
         messagebox.showinfo("Congratulation!", "YOU WIN!\n"+"Your Choice:Rock"+"\nComp Choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
         
@@ -34,7 +34,7 @@ def Rock():
     else:
         comp = "Paper"
         comp_score+=1
-        messagebox.showinfo("The computer is lucky!", "YOU LOOSE!\n"+"Your Choice:Rock"+"\nComp Choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
+        messagebox.showinfo("Unlucky!", "YOU LOOSE!\n"+"Your Choice:Rock"+"\nComp Choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
         
     
     
@@ -54,9 +54,9 @@ def paper():
         
         
     else:
-        comp = "Scissor"
+        comp = "Scissors"
         comp_score+=1
-        messagebox.showinfo("The computer is lucky!", "YOU LOOSE!\n"+"Your Choice:Paper"+"\nComp Choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
+        messagebox.showinfo("Unlucky!", "YOU LOOSE!\n"+"Your Choice:Paper"+"\nComp Choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
         
 def scissor():
     global user_score, comp_score
@@ -66,17 +66,17 @@ def scissor():
     if comp == 2:
         comp = "Paper"
         user_score+=1
-        messagebox.showinfo("Congratulation!", "YOU WIN!\nYour Choice: Scissor\n"+"Comp choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
+        messagebox.showinfo("Congratulation!", "YOU WIN!\nYour Choice: Scissors\n"+"Comp choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
         
     elif comp==3:
-        comp = "Scissor"
-        messagebox.showinfo("Same choice!", "EGUALITY!\nYour Choice: Scissor\n"+"Comp choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
+        comp = "Scissors"
+        messagebox.showinfo("Same choice!", "EGUALITY!\nYour Choice: Scissors\n"+"Comp choice: "+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
         
         
     else:
         comp = "Rock"
         comp_score+=1
-        messagebox.showinfo("The computer is lucky!", "YOU LOOSE!\nYour Choice: Scissor\n"+"Comp choice:"+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
+        messagebox.showinfo("Unlucky!", "YOU LOOSE!\nYour Choice: Scissors\n"+"Comp choice:"+comp+"\nYour Score: "+str(user_score)+"\nComputer Score: "+str(comp_score))
 
 
     
