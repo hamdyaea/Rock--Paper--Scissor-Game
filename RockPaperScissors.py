@@ -80,9 +80,9 @@ def scissor():
 
 
     
-B1 = tkinter.Button(top, text = "Rock",  image = caillou_tk ,height="200",width="180", command = Rock)
-B2 = tkinter.Button(top, text = "Paper", image = feuille_tk ,height="200",width="180", command = paper)
-B3 = tkinter.Button(top, text = "Scissors",  image = ciseaux_tk ,height="200",width="180", command = scissor)
+B1 = tkinter.Button(top, image = caillou_tk ,height="200",width="180", command = Rock)
+B2 = tkinter.Button(top, image = feuille_tk ,height="200",width="180", command = paper)
+B3 = tkinter.Button(top, image = ciseaux_tk ,height="200",width="180", command = scissor)
 B1.image = caillou_tk
 B2.image = feuille_tk
 B3.image = ciseaux_tk
