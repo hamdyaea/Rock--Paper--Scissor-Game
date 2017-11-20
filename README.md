@@ -25,7 +25,7 @@ Install all the packages for : Python 3.
 
 Pillow (for Image)
 ```sh
-pip install Pillow
+pip3 install Pillow
 ```
 
 ```sh
