@@ -23,7 +23,7 @@ The players usually count aloud to 3, or speak the name of the game (e.g. "Rock!
 
 Install all the packages for : Python 3.
 
-Pillow (for Image)
+Pillow (PIL) (for Image)
 ```sh
 pip3 install Pillow
 ```
