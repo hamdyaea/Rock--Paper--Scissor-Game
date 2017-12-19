@@ -2,7 +2,7 @@ import tkinter as tk
 import tkinter 
 from tkinter import messagebox
 import random
-from PIL import Image, ImageTk
+
 
 
 # Developer : Hamdy Abou El Anein
